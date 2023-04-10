@@ -114,7 +114,7 @@ class Bark():
             config.read(self.config_file)
             server = config['DEFAULT']['server']
             key = config['DEFAULT']['client_key']
-            return key, server
+            return server, key
 
 def main(*argv):
     ''' For build command line tool
