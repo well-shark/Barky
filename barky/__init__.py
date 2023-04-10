@@ -1,3 +1,3 @@
-from barky import Bark
+from .barky import Bark
 
-__version__ = '1.0.1'
+__version__ = '1.0.2'
