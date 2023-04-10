@@ -25,8 +25,10 @@ bark = Bark('Your Key', server='Server URL') # Use custom server
 
 bark.send('Hello World')
 ```
+Barky will store the parameters you first specified in `~/.bark/config.ini`.
+Modifying this file or re-specifying parameters can adjust the configuration.
 
-For subsequent initialization:
+Then, for future initialization:
 
 ```python
 from barky import Bark
